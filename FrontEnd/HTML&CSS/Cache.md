@@ -1,14 +1,14 @@
 # 缓存
 
-## 学习目标
+### 学习目标
 - **了解几种缓存的机制、作用、区别、优点、缺陷**
 
-## Cookie & Session
+### Cookie & Session
 会话跟踪是Web程序中常用的技术，用来跟踪用户的整个会话。常用的会话跟踪技术是Cookie与Session。  
 
 Cookie通过在客户端记录信息确定用户身份，Session通过在服务器端记录信息确定用户身份。
 
-### 1. Cookie
+#### 1. Cookie
 由于HTTP是一种无状态的协议，服务器单从网络连接上无从知道客户身份。怎么办呢？  
 
 **就给客户端们颁发一个通行证吧，每人一个，无论谁访问都必须携带自己通行证。这样服务器就能从通行证上确认客户身份了。这就是Cookie的工作原理。**  
@@ -20,7 +20,7 @@ Cookie实际上是一小段的文本信息。客户端请求服务器，如果�
 
 **cookie的大小限制在4kb左右**
 
-### 2. Session
+#### 2. Session
 Session是服务器端使用的一种记录客户端状态的机制，使用上比Cookie简单一些，相应的也增加了服务器的存储压力。
 
 **如果说Cookie机制是通过检查客户身上的“通行证”来确定客户身份的话，那么Session机制就是通过检查服务器上的“客户明细表”来确认客户身份。Session相当于程序在服务器上建立的一份客户档案，客户来访的时候只需要查询客户档案表就可以了。**
@@ -29,7 +29,7 @@ Session是服务器端使用的一种记录客户端状态的机制，使用上�
 
 HTTP协议是无状态的，Session不能依据HTTP连接来判断是否为同一客户，因此服务器向客户端浏览器发送一个名为JSESSIONID的Cookie，它的值为该Session的id（也就是HttpSession.getId()的返回值）。Session依据该Cookie来识别是否为同一用户。
 
-## SessionStorage && LocalStorage
+### SessionStorage && LocalStorage
 两者统称为Web Storage，它可以在客户端本地存储数据，类似cookie。
 
 与cookie的区别

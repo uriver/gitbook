@@ -5,6 +5,7 @@
     * [HTML&CSS](FrontEnd/HTML&CSS/HTML&CSS.md)
         * [浏览器渲染机制](FrontEnd/HTML&CSS/Paint.md)
         * [缓存](FrontEnd/HTML&CSS/Cache.md)
+        * [资源加载顺序](FrontEnd/HTML&CSS/LoadSource.md)
 
     * [JavaScript](FrontEnd/JavaScript.md)
     * [TypeScript](FrontEnd/TypeScript.md)
