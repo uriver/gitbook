@@ -10,6 +10,7 @@
         * [CSS Hack](FrontEnd/HTML&CSS/CSSHack.md)
         * [BFC](FrontEnd/HTML&CSS/BFC.md)
         * [REM](FrontEnd/HTML&CSS/Rem.md)
+        * [Animation](FrontEnd/HTML&CSS/Animation.md)
 
     * [JavaScript](FrontEnd/JavaScript.md)
     * [TypeScript](FrontEnd/TypeScript.md)
