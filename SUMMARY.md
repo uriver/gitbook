@@ -13,6 +13,8 @@
         * [Animation](FrontEnd/HTML&CSS/Animation.md)
 
     * [JavaScript](FrontEnd/JavaScript.md)
+        * [Promise](FrontEnd/JavaScript/Promise.md)
+
     * [TypeScript](FrontEnd/TypeScript.md)
     * [React](FrontEnd/React.md)
 
