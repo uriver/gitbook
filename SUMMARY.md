@@ -12,8 +12,9 @@
         * [REM](FrontEnd/HTML&CSS/Rem.md)
         * [Animation](FrontEnd/HTML&CSS/Animation.md)
 
-    * [JavaScript](FrontEnd/JavaScript.md)
+    * [JavaScript](FrontEnd/JavaScript/JavaScript.md)
         * [Promise](FrontEnd/JavaScript/Promise.md)
+        * [Decorator](FrontEnd/JavaScript/Decorator.md)
 
     * [TypeScript](FrontEnd/TypeScript.md)
     * [React](FrontEnd/React.md)
