@@ -16,6 +16,7 @@
         * [Optimization](FrontEnd/JavaScript/Optimization.md)
         * [Promise](FrontEnd/JavaScript/Promise.md)
         * [Decorator](FrontEnd/JavaScript/Decorator.md)
+        * [Closure](FrontEnd/JavaScript/Closure.md)
 
     * [TypeScript](FrontEnd/TypeScript.md)
     * [React](FrontEnd/React.md)
